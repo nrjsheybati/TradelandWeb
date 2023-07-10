@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register page</title>
+    <link rel="stylesheet" href="/assets/Css/bootstrap5.3.css">
+    <link rel="stylesheet" href="/assets/Css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/Css/landing.css">
+</head>
+
+<body class="body_log_reg">
+
+    <!-- start header navbar -->
+    <div class="mt-4">
+        <nav class="navbar navbar-expand-lg glass-background me-4 rounded-4 rounded-start-0 p-0">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-between ">
+                        <ul class="navbar-nav ps-xl-5 ps-lg-4 align-items-center ">
+                            <li class="nav-item order-1"><a class="nav-link" href="/login.html"><img
+                                        src="/assets/img/iconlogin.svg">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/register.html"><img
+                                        src="/assets/img/iconreg.svg">Register</a></li>
+                        </ul>
+                        <ul
+                            class="navbar-nav  justify-content-start align-items-center flex-grow-1 pe-3 flex-row-reverse ">
+                            <li class="nav-item ps-5 ps-lg-4">
+                                <a class="nav-link " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">More</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">Brokers</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">Markets</a>
+                            </li>
+                            <li class="nav-item ps-xl-5 ps-lg-4">
+                                <a class="nav-link" href="#">Community</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end header navbar-->
+
+    <main>
+        <form class="container-fluid px-0 needs-validation" novalidate>
+            <div class="row m-0">
+                <div class="col-xxl-5 col-md-5 bg-left d-none d-lg-block p-0">
+                    <!-- <img src="/img/zc 1.png" width="" alt=""> -->
+                    <div></div>
+                </div>
+                <div class="col-xxl-2 col-md-1 flex-column d-none d-lg-flex align-items-center justify-content-center mt-5"
+                    id="center-svg">
+                    <img src="/assets/img/Line 457.png" height="200" alt="">
+                    <img src="/assets/img/logo 25.png" height="120" alt="">
+                    <img src="/assets/img/Line 459.svg" height="200" alt="">
+                </div>
+                <div class="col-xxl-5 col-md-4 col-11 d-flex flex-column align-items-start justify-content-center ps-5">
+                    <div class="d-flex flex-column align-items-start justify-content-start  mb-5">
+                        <span class="bordercolory-main h1 fw-bold">Register</span>
+                        <span>Welcome To Tradeland</span>
+                    </div>
+                    <div class="d-flex flex-column ">
+
+                        <div class="input-group mb-4 rounded   has-validation " id="input">
+                            <label class="border-end p-2 " for="validationCustomUsername"
+                                style="padding-right: 19px !important;">Frist Name</label>
+                            <input type="text" class="form-control rounded border-0 text-white   "
+                                style="background: none;" required>
+                            <div class="invalid-feedback">
+                                Filling this field is mandatory
+                            </div>
+                        </div>
+
+                        <div class="input-group mb-4 rounded  has-validation " id="input">
+                            <label class="border-end p-2 " for="validationCustomUsername"
+                                style="padding-right: 21px !important;">Last Name</label>
+                            <input type="text" class="form-control rounded border-0 text-white   " required
+                                style="background: none;">
+                            <div class="invalid-feedback">
+                                Filling this field is mandatory </div>
+                        </div>
+                        <div class="input-group mb-4 rounded  has-validation " id="input">
+                            <label class="border-end p-2 " for="validationCustomUsername"
+                                style="padding-right: 47px !important;">G-Mail</label>
+                            <input type="text" class="form-control rounded border-0 text-white " required
+                                style="background: none;">
+                            <div class="invalid-feedback">
+                                Filling this field is mandatory </div>
+                        </div>
+                        <div class="input-group mb-4 rounded  has-validation " id="input">
+                            <label class="border-end p-2 " for="validationCustomUsername"
+                                style="padding-right: 29px !important;">Password</label>
+                            <input type="password" class="form-control rounded border-0 text-white  " required
+                                style="background: none;" id="toggle-pass">
+                            <i class="bi bi-eye-slash fs-4 me-2" id="iTag"
+                                style="background: none; cursor: pointer;"></i>
+                            <div class="invalid-feedback ">
+                                Filling this field is mandatory </div>
+                        </div>
+
+
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <a href="" class="text-white text-decoration-none" style="font-size: 11pt;">Did you
+                                    already register?</a>
+                                <div>
+                                    <img class="w-50" src="/assets/img/Line 453.png" alt="">
+                                    <span id="span" style="font-size: 15pt;">Register</span>
+                                </div>
+                            </div>
+                            <div class="col-6 d-flex justify-content-end align-items-center">
+                                <button class="border-0 rounded py-2 text-center text-white" id="input"
+                                    style="padding: 68px;">Next</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </form>
+    </main>
+    <script src="/assets/js/jquery-3.7.0.min.js"></script>
+    <script src="/assets/js/jquery-1.12.3.min.js"></script>
+    <script src="/assets/js/bootstrap5.3.js"></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
