@@ -1,0 +1,42 @@
+<div class="col-lg-6">
+    <div class="card text-center box-shadow bg-cards rounded-4 bg-transparent">
+        <div class="card-header p-0   d-flex justify-content-between border-bottom border-bottom text-white">
+            <div class="d-flex flex-row">
+                <img src="./assets/img/arrow-left.svg" class="ms-2 w-2rem">
+            </div>
+            <div class="d-flex flex-row align-items-center">
+
+                <span class="fw-bold me-2">KEEPUSTD<img src="./assets/img/coin.svg" class="ps-2"></span>
+            </div>
+        </div>
+        <div class="card-body text-white px-4">
+            <div class="d-flex justify-content-between mb-3 overflow-hidden">
+                <span class="after-line position-relative bg-cards z-1"><img src="./assets/img/icon-currency.svg"
+                        class="pe-2">currency</span>
+                <span class="bg-span z-1 ">KEEPUSTD</span>
+            </div>
+            <div class="d-flex justify-content-between mb-3 overflow-hidden"> <span
+                    class="after-line position-relative bg-cards z-1"><img src="./assets/img/icon-Signaltype.svg"
+                        class="pe-2">Signal
+                    type</span>
+                <span class="bg-span z-1">Buy / Feature</span>
+            </div>
+            <div class="d-flex justify-content-between mb-3 overflow-hidden"> <span
+                    class="after-line position-relative z-1"><img src="./assets/img/icon-entrypoint.svg"
+                        class="pe-2">entry
+                    point</span>
+                <span class="bg-span z-1">0.86</span>
+            </div>
+            <div class="d-flex justify-content-between mb-3 overflow-hidden"> <span
+                    class="after-line position-relative z-1"><img src="./assets/img/icon-Risk.svg"
+                        class="pe-2">Risk</span>
+                <span class="bg-span z-1">% 10</span>
+            </div>
+            <div class="d-flex justify-content-between mb-3 overflow-hidden"> <span
+                    class="after-line position-relative z-1"><img src="./assets/img/icon-Target.svg"
+                        class="pe-2">Target</span>
+                <span class="bg-span z-1">54</span>
+            </div>
+        </div>
+    </div>
+</div>
