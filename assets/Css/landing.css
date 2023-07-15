@@ -175,8 +175,22 @@ a {
   color: rgba(2, 174, 191, 1) !important;
 }
 
+.light-green {
+  color: rgba(0, 193, 206, 1);
+}
+
 .width-13 {
   width: 13px !important;
+}
+
+.g>div {
+  background: #fff;
+}
+
+
+.dropDown-leftMenu {
+  top: -28px !important;
+  left: 56px !important;
 }
 
 /* end style global */
@@ -483,7 +497,7 @@ a {
 
 .span-mark {
   top: -1.5rem;
-  left: 1rem;
+  left: -3rem;
 }
 
 .contain-cards {
@@ -580,3 +594,9 @@ a {
   width: 19px;
   margin-top: -19px;
 }
+
+/* .ul-border {
+  border: 3px solid transparent !important;
+  border-image: linear-gradient(45deg, red , yellow) !important;
+  border-image-slice: 1 !important;
+  border-radius: 10px !important;  /* will have no effect */
