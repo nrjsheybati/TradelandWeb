@@ -176,7 +176,7 @@ a {
 }
 
 .light-green {
-  color: rgba(0, 193, 206, 1);
+  color: rgba(0, 193, 206, 1) !important;
 }
 
 .width-13 {
@@ -215,14 +215,55 @@ a {
   color: rgba(0, 193, 206, 1);
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .bg-left div {
+    width: 75vh !important;
+    height: 95vh !important;
+    background-image: url(/assets/img/img-log.png);
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    mix-blend-mode: screen !important;
+  }
+}
+
 .bg-left div {
-  width: 81%;
+  width: 100%;
   height: 87vh;
   background-image: url(/assets/img/img-log.png);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
+  mix-blend-mode: screen;
 }
+
+@media screen and (min-width: 630px) and (max-width: 768px) {
+
+  .bg-middle {
+
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: end !important;
+    position: absolute;
+    /* align-items: center !important; */
+    left: -35px;
+    top: 132px;
+
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 823px) {
+
+  .next-btn {
+    display: flex !important;
+    justify-content: center !important;
+    padding: 10px !important;
+
+  }
+}
+
+
 
 .form-control:focus {
   box-shadow: none !important;
@@ -234,6 +275,10 @@ a {
   right: 0;
   left: auto;
   width: auto;
+}
+
+.boredr-green-light {
+  border-color: rgba(0, 193, 206, 1) !important;
 }
 
 /* end style login and register */
@@ -330,6 +375,29 @@ a {
 .test::-webkit-scrollbar-button {
   background-color: #ddd9d9;
 }
+
+.singlePageScroll {
+  max-height: 14rem !important;
+  overflow-y: scroll !important;
+}
+
+.singlePageScroll::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+.singlePageScroll::-webkit-scrollbar-track {
+  background-color: #525050 !important;
+}
+
+.singlePageScroll::-webkit-scrollbar-thumb {
+  background-color: #ffffff !important;
+  border-radius: 3px !important;
+}
+
+.singlePageScroll::-webkit-scrollbar-button {
+  background-color: #525050 !important;
+}
+
 
 .swiper-slide {
   width: 17rem !important;
@@ -600,3 +668,15 @@ a {
   border-image: linear-gradient(45deg, red , yellow) !important;
   border-image-slice: 1 !important;
   border-radius: 10px !important;  /* will have no effect */
+.t {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  text-align: left;
+  width: 4rem;
+}
+
+/* single page 3 */
+
+
+/* end of single page 3 */
