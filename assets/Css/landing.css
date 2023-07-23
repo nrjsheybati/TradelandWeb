@@ -172,7 +172,15 @@ a {
 }
 
 .color-greenblue {
+  border-color:rgba(2, 174, 191, 1) !important ;
   color: rgba(2, 174, 191, 1) !important;
+}
+.light-green-border {
+  border-color: rgba(0, 193, 206, 1) !important ;
+}
+.light-green-back {
+  background-color: rgba(0, 193, 206, 1) !important ;
+
 }
 
 .light-green {
@@ -192,6 +200,7 @@ a {
   top: -28px !important;
   left: 56px !important;
 }
+
 
 /* end style global */
 
@@ -381,6 +390,7 @@ a {
   overflow-y: scroll !important;
 }
 
+
 .singlePageScroll::-webkit-scrollbar {
   width: 3px !important;
 }
@@ -395,6 +405,27 @@ a {
 }
 
 .singlePageScroll::-webkit-scrollbar-button {
+  background-color: #525050 !important;
+}
+
+.singlePageScroll-uniqe {
+  max-height: 19rem !important;
+  overflow-y: scroll !important;
+}
+.singlePageScroll-uniqe::-webkit-scrollbar {
+  width: 3px !important;
+}
+
+.singlePageScroll-uniqe::-webkit-scrollbar-track {
+  background-color: #525050 !important;
+}
+
+.singlePageScroll-uniqe::-webkit-scrollbar-thumb {
+  background-color: #ffffff !important;
+  border-radius: 3px !important;
+}
+
+.singlePageScroll-uniqe::-webkit-scrollbar-button {
   background-color: #525050 !important;
 }
 
@@ -676,7 +707,26 @@ a {
   width: 4rem;
 }
 
-/* single page 3 */
+/* single page 5 */
+#container {
+  height: 300px;
+  min-width: 100%;
+}
 
+.highcharts-scrollbar-thumb {
+  display: none;
+}
+.highcharts-scrollbar-track {
+  display: none;
+}
+.highcharts-xaxis-labels {
+  display: none;
+}
+.highcharts-axis-line {
+  display: none;
+}
+.highcharts-xaxis {
+  display: none;
+}
 
 /* end of single page 3 */
